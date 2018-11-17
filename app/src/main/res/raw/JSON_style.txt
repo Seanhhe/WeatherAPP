@@ -1,0 +1,66 @@
+
+{
+"success":"true",
+"result":
+    {
+        "resource_id":"F-C0032-001",
+        "fields":[
+                    {
+                        "id":"datasetDescription",
+                        "type":"String"
+                    },
+                    {
+                        "id":"locationName",
+                        "type":"String"
+                    },
+                    {
+                        "id":"parameterName",
+                        "type":"String"
+                    },
+                    {
+                        "id":"parameterValue",
+                        "type":"String"
+                    },
+                    {
+                        "id":"parameterUnit",
+                        "type":"String"
+                    },
+                    {
+                        "id":"startTime",
+                        "type":"Timestamp"
+                    },
+                    {
+                        "id":"endTime",
+                        "type":"Timestamp"
+                    }
+                 ]
+    },
+"records":
+    {
+        "datasetDescription":"�T�Q���p�ɤѮ�w��",
+        "location":[
+                    {
+                        "locationName":"�O����",
+                        "weatherElement":
+                                            [
+                                                {
+                                                    "elementName":"Wx",
+                                                    "time":
+                                                            [
+                                                                {"startTime":"2018-11-17 06:00:00","endTime":"2018-11-17 18:00:00","parameter":{"parameterName":"�h���ɳ��u�ȫB","parameterValue":"12"}},
+                                                                {"startTime":"2018-11-17 18:00:00","endTime":"2018-11-18 06:00:00","parameter":{"parameterName":"�h���u�ȫB","parameterValue":"12"}},
+                                                                {"startTime":"2018-11-18 06:00:00","endTime":"2018-11-18 18:00:00","parameter":{"parameterName":"���ɦh��","parameterValue":"8"}}]},
+                                                                {"elementName":"PoP","time":[{"startTime":"2018-11-17 06:00:00","endTime":"2018-11-17 18:00:00","parameter":{"parameterName":"30","parameterUnit":"�ʤ���"}},
+                                                                {"startTime":"2018-11-17 18:00:00","endTime":"2018-11-18 06:00:00","parameter":{"parameterName":"30","parameterUnit":"�ʤ���"}},{"startTime":"2018-11-18 06:00:00","endTime":"2018-11-18 18:00:00","parameter":{"parameterName":"10","parameterUnit":"�ʤ���"}}]},
+                                                                {"elementName":"MinT","time":[{"startTime":"2018-11-17 06:00:00","endTime":"2018-11-17 18:00:00","parameter":{"parameterName":"23","parameterUnit":"C"}},
+                                                                {"startTime":"2018-11-17 18:00:00","endTime":"2018-11-18 06:00:00","parameter":{"parameterName":"23","parameterUnit":"C"}},
+                                                                {"startTime":"2018-11-18 06:00:00","endTime":"2018-11-18 18:00:00","parameter":{"parameterName":"23","parameterUnit":"C"}}]},
+                                                                {"elementName":"CI","time":[{"startTime":"2018-11-17 06:00:00","endTime":"2018-11-17 18:00:00","parameter":{"parameterName":"�ξA"}},
+                                                                {"startTime":"2018-11-17 18:00:00","endTime":"2018-11-18 06:00:00","parameter":{"parameterName":"�ξA"}},
+                                                                {"startTime":"2018-11-18 06:00:00","endTime":"2018-11-18 18:00:00","parameter":{"parameterName":"�ξA"}}]},
+                                                                {"elementName":"MaxT","time":[{"startTime":"2018-11-17 06:00:00","endTime":"2018-11-17 18:00:00","parameter":{"parameterName":"27","parameterUnit":"C"}},{"startTime":"2018-11-17 18:00:00","endTime":"2018-11-18 06:00:00","parameter":{"parameterName":"25","parameterUnit":"C"}},{"startTime":"2018-11-18 06:00:00","endTime":"2018-11-18 18:00:00","parameter":{"parameterName":"28","parameterUnit":"C"}}]}
+                                            ]
+                    }
+                   ]
+    }
+}
